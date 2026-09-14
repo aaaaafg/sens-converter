@@ -18,10 +18,15 @@
 
 ### 方式二：桌面版（Windows 安装包）
 
+**直接下载 👉 <https://github.com/aaaaafg/sens-converter/releases/latest/download/SENS-FORGE-Setup-1.0.0.exe>**
+
+或者手动操作：
+
 1. 点击仓库页面右侧 **Releases**（或直接访问 <https://github.com/aaaaafg/sens-converter/releases>）
-2. 在最新版本的 **Assets** 里，找到并下载：
-   `SENS-FORGE-灵敏度工坊-Setup-1.0.0.exe`
+2. 在最新版本的 **Assets** 里，找到并下载 `SENS-FORGE-Setup-1.0.0.exe`
 3. 双击安装（可自定义安装目录，自动创建桌面 / 开始菜单快捷方式）
+
+> 安装包未做代码签名，Windows SmartScreen 可能提示「未知发布者」，点「仍要运行」即可。
 
 ---
 
