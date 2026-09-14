@@ -1,0 +1,20 @@
+# ===== 依赖 =====
+node_modules/
+
+# ===== 桌面版构建产物（安装包请上传到 GitHub Releases，不要提交进仓库）=====
+desktop/dist/
+*.blockmap
+builder-debug.yml
+builder-effective-config.yaml
+
+# ===== 与项目无关的本地备份 =====
+backups/
+
+# ===== 系统/编辑器杂项 =====
+Thumbs.db
+.DS_Store
+*.log
+desktop-only-file-notes.md
+
+# ===== npm =====
+npm-debug.log*

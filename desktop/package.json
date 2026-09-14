@@ -1,0 +1,37 @@
+{
+  "name": "sensforge",
+  "productName": "SENS FORGE 灵敏度工坊",
+  "version": "1.0.0",
+  "description": "FPS 灵敏度转换工坊 · 完全离线桌面版",
+  "main": "main.js",
+  "author": "SENS//FORGE",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "31.7.7",
+    "electron-builder": "24.13.3"
+  },
+  "build": {
+    "appId": "com.sensforge.fps",
+    "productName": "SENS FORGE 灵敏度工坊",
+    "directories": { "output": "dist" },
+    "files": ["main.js", "index.html", "icon.ico"],
+    "afterPack": "./afterPack.js",
+    "win": {
+      "icon": "icon.ico",
+      "signAndEditExecutable": false,
+      "target": [{ "target": "nsis", "arch": ["x64"] }]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "SENS FORGE 灵敏度工坊",
+      "artifactName": "SENS-FORGE-灵敏度工坊-Setup-${version}.exe"
+    }
+  }
+}
