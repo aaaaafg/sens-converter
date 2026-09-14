@@ -20,7 +20,7 @@
 
 1. 点击仓库页面右侧 **Releases**（或直接访问 <https://github.com/aaaaafg/sens-converter/releases>）
 2. 在最新版本的 **Assets** 里，找到并下载：
-   `SENS-FORGE-灵敏度工坊-Setup-1.0.0.exe`
+   `SENS-FORGE-Setup-1.0.0.exe`
 3. 双击安装（可自定义安装目录，自动创建桌面 / 开始菜单快捷方式）
 
 ---
